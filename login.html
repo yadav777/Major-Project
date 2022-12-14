@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col text-center "
+          style="height:80px; background-color: rgb(6, 115, 135); font-size: 50px; opacity:0.8;">
+          <span class="navbar-text">
+            College Management System
+          </span></div>
+        </div>
+  </div> -->
+  <section class="wrapper">
+  <div class="container d-flex justify-content-center align-items-center mt-0" style="min-height: 100vh">
+    <!-- <p style="position: relative; bottom:15rem; left:20rem;">College Management System</p> -->
+    <div class="row">
+      <div class="col" style="height: 500px; width:500px;">
+        <div class="logo"><img src="" alt=""></div>
+        <form class="border shadow p-3 rounded">
+          <label for="username" class="form-label fw-bold "><i class=" bi-person-square"></i>Username</label>
+          <input type="text" class="form-control" name="username" id="username">
+
+          <div class="mb-3">
+            <label for="password" class="form-label fw-bold"><i class=" bi-shield-lock"></i>Password</label>
+            <input type="password" name="password" class="form-control" id="password">
+          </div>
+          <div class=" text-end">
+            <a href="#" class="text-primary fw-bold text-decoration-none">Forget Password?</a>
+          </div>
+          <div class="mb-1">
+            <label class="form-label fw-bold text-warning">Login As:</label>
+          </div>
+          <select class="form-select mb-3" name="role" aria-label="Default select example">
+            <option>Admin</option>
+            <option>Sutudent</option>
+            <option>Teacher</option>
+          </select>
+          <p class="text-danger">Not Register? <a href="#" style="text-decoration: none;">Register here
+              <select class="form-select mb-3" name="role">
+                <option>Admin</option>
+                <option>Student</option>
+                <option>Teacher</option>
+              </select>
+            </a></p>
+          <button type="submit" class="btn btn-primary submit-btn my-2 w-100">LOGIN</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+</body>
+
+</html>
